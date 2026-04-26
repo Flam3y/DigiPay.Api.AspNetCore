@@ -11,7 +11,7 @@ namespace DigiPay.Api.AspNetCore;
 
 public static class Extensions
 {
-    public static IServiceCollection ConfigurePlategaMvc(this IServiceCollection services)
+    public static IServiceCollection ConfigureDigiPayMvc(this IServiceCollection services)
         => services.Configure<MvcOptions>(options =>
         {
             options.InputFormatters.Insert(0, _inputFormatter);
