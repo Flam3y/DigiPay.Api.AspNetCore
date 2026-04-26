@@ -15,6 +15,7 @@
     <RepositoryUrl>https://github.com/Flam3y/DigiPay.Api.AspNetCore</RepositoryUrl>
     <PackageTags>Payments;Api;AspNetCore</PackageTags>
     <PackageProjectUrl>https://digitalpay.cc</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
